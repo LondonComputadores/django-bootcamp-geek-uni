@@ -33,7 +33,7 @@ Terminal's issued commands:
     - >>> product = Product.objects.filter(id=1)
     - >>> Product.objects.filter(id=1)
     - >>> for product in product:
-    - ..........     print(product)
+    - ............     print(product)
     - >>> Product.objects.count()
     - >>> from django1.settings import BASE_DIR
     - >>> BASE_DIR
