@@ -1,0 +1,23 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #a35de9;
+    color: #ffffff;
+}
+
+a {
+    margin-right: 15px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+th {
+    margin-left: 150px;
+}
