@@ -21,22 +21,22 @@ Terminal's issued commands:
 - $ python manage.py migrate
 - $ python manage.py createsuperuser
 - $ python manage.py shell (
-    >>> from app.views import index
-    >>> dir(index)
-    >>> from app.models import Product
-    >>> dir(Product)
-    >>> product = Product.objects.all()
-    >>> product
-    >>> product.id
-    >>> product.pk
-    >>> product = Product.objects.first()
-    >>> product = Product.objects.filter(id=1)
-    >>> Product.objects.filter(id=1)
-    >>> for product in product:
-    ...     print(product)
-    >>> Product.objects.count()
-    >>> from django1.settings import BASE_DIR
-    >>> BASE_DIR
-    >>> STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-    >>> STATIC_ROOT
+    - >>> from app.views import index
+    - >>> dir(index)
+    - >>> from app.models import Product
+    - >>> dir(Product)
+    - >>> product = Product.objects.all()
+    - >>> product
+    - >>> product.id
+    - >>> product.pk
+    - >>> product = Product.objects.first()
+    - >>> product = Product.objects.filter(id=1)
+    - >>> Product.objects.filter(id=1)
+    - >>> for product in product:
+    - ...     print(product)
+    - >>> Product.objects.count()
+    - >>> from django1.settings import BASE_DIR
+    - >>> BASE_DIR
+    - >>> STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+    - >>> STATIC_ROOT
 )
