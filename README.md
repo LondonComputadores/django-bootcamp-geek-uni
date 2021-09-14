@@ -10,17 +10,17 @@ This is a Django Bootcamp from Udemy by Geek University as a Recap where will be
 
 Terminal's issued commands:
 
-$ python -m venv venv
-$ source venv/bin/activate
-$ pip install django whitenoise gunicorn
-$ pip freeze > requirements.txt
-$ django-admin startprojec django1 .
-$ python manage.py startapp app
-$ python manage.py runserver
-$ python manage.py makemigrations
-$ python manage.py migrate
-$ python manage.py createsuperuser
-$ python manage.py shell (
+- $ python -m venv venv
+- $ source venv/bin/activate
+- $ pip install django whitenoise gunicorn
+- $ pip freeze > requirements.txt
+- $ django-admin startprojec django1 .
+- $ python manage.py startapp app
+- $ python manage.py runserver
+- $ python manage.py makemigrations
+- $ python manage.py migrate
+- $ python manage.py createsuperuser
+- $ python manage.py shell (
     >>> from app.views import index
     >>> dir(index)
     >>> from app.models import Product
