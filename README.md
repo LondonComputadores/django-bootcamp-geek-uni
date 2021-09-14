@@ -12,7 +12,7 @@ Terminal's issued commands:
 
 $ python -m venv venv
 $ source venv/bin/activate
-$ pip install django
+$ pip install django whitenoise gunicorn
 $ pip freeze > requirements.txt
 $ django-admin startprojec django1 .
 $ python manage.py startapp app
