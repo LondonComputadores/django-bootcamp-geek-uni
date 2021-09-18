@@ -1,8 +1,8 @@
-# django-bootcamp-geek-uni
+# django-bootcamp-geek-uni-sqlite
 This is a Django Bootcamp from Udemy by Geek University as a Recap where will be built 3 different applications such as a Real Time, Geo location, and Data Manipulation one, which can be seen topics like Websockets, Facebook Login, PDF Creator, Customized models and admin, tests, deploy and so on...
 
 #### Link Application 1: This Repo
-#### Link Application 2:
+#### Link Application 2: https://github.com/LondonComputadores/django-bootcamp-geek-uni-mysql
 #### Link Application 3:
 
 
@@ -14,7 +14,7 @@ Terminal's issued commands:
 - $ source venv/bin/activate
 - $ pip install django whitenoise gunicorn
 - $ pip freeze > requirements.txt
-- $ django-admin startprojec django1 .
+- $ django-admin startproject django1 .
 - $ python manage.py startapp app
 - $ python manage.py runserver
 - $ python manage.py makemigrations
